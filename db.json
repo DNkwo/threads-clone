@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "1eac1f77-5694-4bf7-b90d-9fa67c678b03",
+      "username": "Chaysse",
+      "handle": "David",
+      "bio": "this is a test because why not",
+      "link": "https://twitter.com/Chay55e",
+      "img": "https://randomuser.me/api/portraits/men/63.jpg",
+      "instagram_url": "https://www.instagram.com/d.nkwo/",
+      "followers": [
+        {
+          "user_uuid": "155e54df-3262-4126-aaa1-9d3970bd83f9"
+        },
+        {
+          "user_uuid": "41aaf2b3-a3ea-47e5-b0d6-6689bf661b94"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "155e54df-3262-4126-aaa1-9d3970bd83f9",
+      "username": "Martin",
+      "handle": "MartinTest",
+      "bio": "hi, i am martin",
+      "link": "https://www.martin.com",
+      "img": "https://randomuser.me/api/portraits/men/27.jpg",
+      "instagram_url": "https://www.instagram.com/d.nkwo/",
+      "followers": [
+        {
+          "user_uuid": "1eac1f77-5694-4bf7-b90d-9fa67c678b03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "41aaf2b3-a3ea-47e5-b0d6-6689bf661b94",
+      "username": "Lina",
+      "handle": "Mamamamamama",
+      "bio": "asadadada",
+      "link": "https://www.martin.com",
+      "img": "https://randomuser.me/api/portraits/women/8.jpg",
+      "instagram_url": "https://www.instagram.com/d.nkwo/",
+      "followers": [
+        {
+          "user_uuid": "1eac1f77-5694-4bf7-b90d-9fa67c678b03"
+        },
+        {
+          "user_uuid": "155e54df-3262-4126-aaa1-9d3970bd83f9"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Sun Jul 16 2023 16:36:31 GMT+0100 (British Summer Time)",
+      "thread_from": "1eac1f77-5694-4bf7-b90d-9fa67c678b03",
+      "thread_to": null,
+      "reply_to": 3,
+      "text": "Hello world",
+      "likes": [
+        {
+          "user_uuid": "41aaf2b3-a3ea-47e5-b0d6-6689bf661b94"
+        },
+        {
+          "user_uuid": "155e54df-3262-4126-aaa1-9d3970bd83f9"
+        },
+        {
+          "user_uuid": "1eac1f77-5694-4bf7-b90d-9fa67c678b03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Sun Jul 16 2023 18:36:31 GMT+0100 (British Summer Time)",
+      "thread_from": "1eac1f77-5694-4bf7-b90d-9fa67c678b03",
+      "thread_to": null,
+      "reply_to": 3,
+      "text": "Another thread!",
+      "likes": [
+        {
+          "user_uuid": "1eac1f77-5694-4bf7-b90d-9fa67c678b03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Sun Jul 16 2023 18:36:31 GMT+0100 (British Summer Time)",
+      "thread_from": "1eac1f77-5694-4bf7-b90d-9fa67c678b03",
+      "thread_to": null,
+      "reply_to": 0,
+      "text": "Hey, just testing this out!",
+      "likes": [
+        {
+          "user_uuid": "1eac1f77-5694-4bf7-b90d-9fa67c678b03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "timestamp": "Sun Jul 16 2023 18:36:31 GMT+0100 (British Summer Time)",
+      "thread_from": "41aaf2b3-a3ea-47e5-b0d6-6689bf661b94",
+      "thread_to": "155e54df-3262-4126-aaa1-9d3970bd83f9",
+      "reply_to": 0,
+      "text": "Hey!",
+      "likes": []
+    }
+  ]
+}
